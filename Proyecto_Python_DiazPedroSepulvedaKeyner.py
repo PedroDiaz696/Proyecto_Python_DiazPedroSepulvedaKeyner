@@ -12,8 +12,6 @@ with open("trainers.json","r", encoding="utf-8") as archivoT:
 with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
      usuariosCampus = json.load(archivoU)
 
-with open("coordinador.json", "r", encoding="utf-8") as archivo:
-     coordinador = json.load(archivo)
 
 def menuGeneral():
     
@@ -42,12 +40,12 @@ def menuInicioSesion():
     for usucamp in usuariosCampus:
         if correo.strip().lower() == usucamp["correo"].strip().lower() and contraseña.strip() == usucamp["contraseña"]: #.strip() para evitar errores por espacios al inicio o al final y .lower() para evitar errores por mayusculas
             if usucamp["rol"] == "camper":
-                menuCampers(correo)
+                menuCampers(correo) #el (correo) es la informacion que envia a la funcion
             elif usucamp["rol"] == "trainer":
-                menuTrainer()
+                menuTrainer(correo)
             elif usucamp["rol"] == "coordinador":
                 menuCoordinador()
-            return # sale de la funcion
+            return #sale de la funcion / en este caso cuando se coloca un correo o contraseña incorrectos, vuelve al menu del inicio
     print("\n nombre o contraseña incorrectos!")
     print("")
      
@@ -111,17 +109,12 @@ def guardarNotas(registro):
 
 
         
-def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inició sesión
-    # Buscar el camper actual por su correo
-    camper_actual = None
+def menuCampers(correo):  #recibe el correo del camper 
+    camper_actual = None #indica que todavia no hay camper, es como cuando a una variable le ponemos = 0
     for camper in campers:
-        if camper["correo"].strip().lower() == correo_camper.strip().lower():
-            camper_actual = camper
-            break
-    
-    if camper_actual is None:
-        print("Error: No se encontró el camper en el sistema")
-        return
+        if camper["correo"].strip().lower() == correo.strip().lower(): #si el correo que se ingreso es = al de un camper:
+            camper_actual = camper #guarda la informacion del camper para saber de quien se trata
+            break #sale del bucle apenas se cumpla
     
     while True:
         print("\n--- MENU CAMPER ---")
@@ -133,29 +126,25 @@ def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inic
         
         try:
             opcionCamper = int(input(": "))
-        except ValueError:
-            print("Opción inválida. Ingresa un número.")
-            continue
+        except ValueError: #para los errores de valor, por ejemplo un caracter cuando tiene que ingresar un numero
+            print("opción invalida. ingrese un numero!")
+            continue #por asi decirlo, invalida la opcion y la cierra
 
         if opcionCamper == 1:
-            # Ver estado del usuario
             print("\n--- ESTADO DEL USUARIO ---")
-            print(f"Nombre: {camper_actual['nombre']} {camper_actual['apellido']}")
-            print(f"Identificación: {camper_actual['# de identificacion']}")
-            print(f"Dirección: {camper_actual['direccion']}")
-            print(f"Correo: {camper_actual['correo']}")
+            print(f"Nombre: {camper_actual['nombre']} {camper_actual['apellido']}") #f"" para que lea el {} como el valor que es, tal cual
+            print(f"Identificacion: {camper_actual['# de identificacion']}")
             print(f"Estado: {camper_actual['estado']['situacion']}")
             
             if camper_actual['estado']['situacion'] == "Cursando":
                 print(f"¿Estás en riesgo?: {camper_actual['estado']['en riesgo']}")
             
-            # Mostrar grupo y jornada si tiene
             if 'grupo' in camper_actual:
                 print(f"Grupo: {camper_actual['grupo']}")
                 print(f"Jornada: {camper_actual['jornada']}")
 
         elif opcionCamper == 2:
-            # Ver notas
+            
             print("\n--- MIS NOTAS ---")
             try:
                 with open("notas.json", "r", encoding="utf-8") as archivoN:
@@ -163,7 +152,7 @@ def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inic
                 
                 notas_encontradas = False
                 for nota in notas:
-                    # Buscar por nombre (puedes mejorar esto buscando por correo si lo agregas al registro)
+                    
                     if nota["nombre"].strip().lower() == camper_actual["nombre"].strip().lower():
                         notas_encontradas = True
                         print(f"\nMódulo: {nota['modulo']}")
@@ -179,13 +168,13 @@ def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inic
                 print("No hay notas registradas en el sistema.")
 
         elif opcionCamper == 3:
-            # Ver grupo asignado
+            
             print("\n--- MI GRUPO ---")
             if 'grupo' in camper_actual:
                 print(f"Grupo asignado: {camper_actual['grupo']}")
                 print(f"Jornada: {camper_actual['jornada']}")
                 
-                # Mostrar compañeros del mismo grupo
+                
                 print(f"\nCompañeros del grupo {camper_actual['grupo']}:")
                 contador = 0
                 for compañero in campers:
@@ -200,7 +189,7 @@ def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inic
             print("Saliendo del menú camper...")
             break
 
-def menuCoordinador():
+
     
 
 
