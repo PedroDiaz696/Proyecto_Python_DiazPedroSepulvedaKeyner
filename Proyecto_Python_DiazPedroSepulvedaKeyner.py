@@ -9,28 +9,48 @@ with open("registros_campers_350.json", "r", encoding="utf-8") as archivo: #open
 with open("trainers.json","r", encoding="utf-8") as archivoT:
      trainers = json.load(archivoT)
 
-def menuRegistro():
-    print("--------------------------")
-    print("------- REGISTRATE -------")
-    print("--------------------------")
-    print("1. Camper")
-    print("2. Trainer")
-    print("3. Coordinador")
-    opcionRegistro = int(input(": "))
-    if opcionRegistro == 1:
-        registroCamper()
-    if opcionRegistro == 2: 
-        registroTrainer()
+with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
+     usuariosCampus = json.load(archivoU)
 
-def registroTrainer():
-    nombreTrainer = input("cual es tu nombre? trainer: ")
-    passwordTrainer = input("ingresa tu contraseña: ")
-    for nombreT in trainers:
-        if nombreTrainer.strip().lower() == nombreT["nombre"].strip().lower() and passwordTrainer.strip() == nombreT["password"]: #.strip() para evitar errores por espacios al inicio o al final y .lower() para evitar errores por mayusculas
-            menuTrainer()
+def menuGeneral():
+    
+    while True:
+        print("--- BIENVENIDO A CAMPUSLANDS ---")
+        print("\n1. iniciar sesion")
+        print("2. registrarme")
+        print("3. salir")
+        opmenuG = int(input(": "))
+        if opmenuG == 1:
+            menuInicioSesion()
+        elif opmenuG == 2:
+            menuRegistro()
+
+    
+
+
+def menuInicioSesion():
+    print("")
+    print("------------------------------")
+    print("------- INICIAR SESION -------")
+    print("------------------------------")
+    print("")
+    correo = input("ingresa tu correo: ")
+    contraseña = input("ingresa tu contraseña: ")
+    for usucamp in usuariosCampus:
+        if correo.strip().lower() == usucamp["correo"].strip().lower() and contraseña.strip() == usucamp["contraseña"]: #.strip() para evitar errores por espacios al inicio o al final y .lower() para evitar errores por mayusculas
+            if usucamp["rol"] == "camper":
+                menuCampers(correo)
+            elif usucamp["rol"] == "trainer":
+                menuTrainer()
+            elif usucamp["rol"] == "coordinador":
+                menuCoordinador()
             return # sale de la funcion
-    print("nombre o contraseña incorrectos!")
-        
+    print("\n nombre o contraseña incorrectos!")
+    print("")
+
+    
+def menuCoordinador():
+    print("soy el coordinador")
      
 def menuTrainer():
     print("--- BIENVENIDO TRAINER ---")
@@ -55,9 +75,9 @@ def asignarNotas():
         
     print("\n--- MODULOS ---")
     for i, modulo in enumerate(modulos, start=1):
-        print("{i}, {modulo}")
-        elegirModulo = int(input("seleccione el modulo: "))
-        moduloSeleccionado = modulos[elegirModulo-1]
+        print(f"{i}. {modulo}")
+        Mod = 1
+        moduloSeleccionado = modulos[Mod-1]
         practica = float(input("nota prueba practica (60%): "))
         teorica = float(input("nota prueba teorica (30%): "))
         trabajos = float(input("nota final trabajos (10%): "))
@@ -74,7 +94,7 @@ def asignarNotas():
             } 
                 
         }
-    
+    guardarNotas(registro)
 
 
 def guardarNotas(registro):
@@ -90,32 +110,103 @@ def guardarNotas(registro):
         print("Notas Guardadas!")
 
 
-def registroCamper():
-        print("--- Bienvenido Camper ---")
-        print("Que quieres hacer? : ")
+
+        
+def menuCampers(correo_camper):  # CAMBIO: Recibir el correo del camper que inició sesión
+    # Buscar el camper actual por su correo
+    camper_actual = None
+    for camper in campers:
+        if camper["correo"].strip().lower() == correo_camper.strip().lower():
+            camper_actual = camper
+            break
+    
+    if camper_actual is None:
+        print("Error: No se encontró el camper en el sistema")
+        return
+    
+    while True:
+        print("\n--- MENU CAMPER ---")
+        print(f"Bienvenido/a {camper_actual['nombre']} {camper_actual['apellido']}")
         print("1. Ver estado de usuario")
-        print("3. ver lista de campers")
-        opcionCamper = int(input(": "))
+        print("2. Ver notas")
+        print("3. Ver grupo asignado")
+        print("4. Salir")
+        
+        try:
+            opcionCamper = int(input(": "))
+        except ValueError:
+            print("Opción inválida. Ingresa un número.")
+            continue
 
         if opcionCamper == 1:
-            numeroIdentificacion = input("ingresa tu numero de identificacion :")
-            for ni in campers:
-                if ni["# de identificacion"] == numeroIdentificacion:
-                     print("eres: ", ni["nombre"])
-                     print("tu estado es: ", ni["estado"]["situacion"])
-                     if ni["estado"]["situacion"] == "Cursando":
-                          print("estas en riesgo? :",ni["estado"]["en riesgo"])
-                     
+            # Ver estado del usuario
+            print("\n--- ESTADO DEL USUARIO ---")
+            print(f"Nombre: {camper_actual['nombre']} {camper_actual['apellido']}")
+            print(f"Identificación: {camper_actual['# de identificacion']}")
+            print(f"Dirección: {camper_actual['direccion']}")
+            print(f"Correo: {camper_actual['correo']}")
+            print(f"Estado: {camper_actual['estado']['situacion']}")
+            
+            if camper_actual['estado']['situacion'] == "Cursando":
+                print(f"¿Estás en riesgo?: {camper_actual['estado']['en riesgo']}")
+            
+            # Mostrar grupo y jornada si tiene
+            if 'grupo' in camper_actual:
+                print(f"Grupo: {camper_actual['grupo']}")
+                print(f"Jornada: {camper_actual['jornada']}")
 
+        elif opcionCamper == 2:
+            # Ver notas
+            print("\n--- MIS NOTAS ---")
+            try:
+                with open("notas.json", "r", encoding="utf-8") as archivoN:
+                    notas = json.load(archivoN)
+                
+                notas_encontradas = False
+                for nota in notas:
+                    # Buscar por nombre (puedes mejorar esto buscando por correo si lo agregas al registro)
+                    if nota["nombre"].strip().lower() == camper_actual["nombre"].strip().lower():
+                        notas_encontradas = True
+                        print(f"\nMódulo: {nota['modulo']}")
+                        print(f"  Nota práctica: {nota['notas']['nota practica']}")
+                        print(f"  Nota teórica: {nota['notas']['nota teorica']}")
+                        print(f"  Nota trabajos: {nota['notas']['nota trabajos']}")
+                        print(f"  Nota final: {nota['notas']['nota final']}")
+                
+                if not notas_encontradas:
+                    print("No tienes notas registradas aún.")
+                    
+            except FileNotFoundError:
+                print("No hay notas registradas en el sistema.")
 
         elif opcionCamper == 3:
-             for listaCampers in campers:
-                print(listaCampers["nombre"])
+            # Ver grupo asignado
+            print("\n--- MI GRUPO ---")
+            if 'grupo' in camper_actual:
+                print(f"Grupo asignado: {camper_actual['grupo']}")
+                print(f"Jornada: {camper_actual['jornada']}")
+                
+                # Mostrar compañeros del mismo grupo
+                print(f"\nCompañeros del grupo {camper_actual['grupo']}:")
+                contador = 0
+                for compañero in campers:
+                    if 'grupo' in compañero and compañero['grupo'] == camper_actual['grupo']:
+                        if compañero['correo'] != camper_actual['correo']:  # No mostrar al usuario actual
+                            contador += 1
+                            print(f"  {contador}. {compañero['nombre']} {compañero['apellido']}")
+            else:
+                print("Aún no tienes un grupo asignado.")
+
+        elif opcionCamper == 4:
+            print("Saliendo del menú camper...")
+            break
+
+        
 
 
 
 
-menuRegistro()
+menuGeneral()
 
 
 

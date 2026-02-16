@@ -2,7 +2,7 @@
     {
         "id": "1",
         "nombre": "Edwen Salas",
-        "password": "campus2026",
+        "correo": "edwen.salas@trainer.com",
         "hora de inicio": "6 AM",
         "hora fin": "2 PM",
         "especialidad": "JAVA, NETCORE",
@@ -11,7 +11,7 @@
     {
         "id": "2",
         "nombre": "Jholver",
-        "password": "campus2026",
+        "correo": "jholver@trainer.com",
         "hora de inicio": "6 AM",
         "hora fin": "2 PM",
         "especialidad": "JAVA, NETCORE",
@@ -20,7 +20,7 @@
     {
         "id": "3",
         "nombre": "Kelvin David",
-        "password": "campus2026",
+        "correo": "kelvin.david@trainer.com",
         "hora de inicio": "6 AM",
         "hora fin": "2 PM",
         "especialidad": "JAVA",
@@ -29,7 +29,7 @@
     {
         "id": "4",
         "nombre": "Pedro",
-        "password": "campus2026",
+        "correo": "pedro@trainer.com",
         "hora de inicio": "6 AM",
         "hora fin": "6 PM",
         "especialidad": "NodeJS, JAVA",
@@ -38,7 +38,7 @@
     {
         "id": "5",
         "nombre": "Cristian",
-        "password": "campus2026",
+        "correo": "cristian@trainer.com",
         "hora de inicio": "10 AM",
         "hora fin": "6 PM",
         "especialidad": "JAVA, NodeJS",
