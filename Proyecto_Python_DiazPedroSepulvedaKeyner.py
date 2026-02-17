@@ -12,6 +12,8 @@ with open("trainers.json","r", encoding="utf-8") as archivoT:
 with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
      usuariosCampus = json.load(archivoU)
 
+with open("grupos.json","r", encoding="utf-8") as archivo:
+    grupos = json.load(archivo)
  
 
 def menuGeneral():
@@ -124,8 +126,6 @@ def verEstudiantesTrainer(trainer_actual):
 
     print(f"Especialidad: {trainer_actual.get('especialidad')}")
     print(f"Horario: {trainer_actual.get('hora de inicio')} - {trainer_actual.get('hora fin')}")
-    
-        
 
 
 modulos = [
@@ -137,20 +137,43 @@ modulos = [
 ]
 
 
-def asignarNotas():
+def asignarNotas(trainer_actual):
     nombreEstudianteasignar = input("ingrese el nombre del estudiante: ").strip()
         
     print("\n--- MODULOS ---")
-    for i, modulo in enumerate(modulos, start=1):
+    nombre = input("Nombre del estudiante: ").strip()
+
+    print("\n--- MODULOS ---")
+    for i, modulo in enumerate(modulos, 1):
         print(f"{i}. {modulo}")
-        Mod = 1
-        moduloSeleccionado = modulos[Mod-1]
-        practica = float(input("nota prueba practica (60%): "))
-        teorica = float(input("nota prueba teorica (30%): "))
-        trabajos = float(input("nota final trabajos (10%): "))
-        notaFinal = (practica*0.6) + (teorica*0.3) + (trabajos*0.1)
+
+    opcion = int(input("Seleccione módulo: "))
+    moduloSeleccionado = modulos[opcion - 1]
+
+    practica = float(input("Nota práctica (60%): "))
+    teorica = float(input("Nota teórica (30%): "))
+    trabajos = float(input("Nota trabajos (10%): "))
+
+    notaFinal = practica*0.6 + teorica*0.3 + trabajos*0.1
+
+    registro = {
+        "nombre": nombre,
+        "modulo": moduloSeleccionado,
+        "notas": {
+            "nota practica": practica,
+            "nota teorica": teorica,
+            "nota trabajos": trabajos,
+            "nota final": round(notaFinal, 2)
+        }
+    }
+
+    guardarNotas(registro)
+    practica = float(input("nota prueba practica (60%): "))
+    teorica = float(input("nota prueba teorica (30%): "))
+    trabajos = float(input("nota final trabajos (10%): "))
+    notaFinal = (practica*0.6) + (teorica*0.3) + (trabajos*0.1)
         
-        registro = {
+    registro = {
             "nombre": nombreEstudianteasignar,
             "modulo": moduloSeleccionado,
             "notas": {
@@ -246,10 +269,12 @@ def menuCampers(correo):  #recibe el correo del camper
             else:
                 print("Aun no tienes un grupo asignado!")
 
+
         elif opcionCamper == 4:
             print("Saliendo del menú camper...")
             break
 
+matriculas = []
 
 def registrarExamenInicial():
     
@@ -366,6 +391,9 @@ def reporteRiesgo():
     for camper in campers:
         if camper["riesgo"]:
             print(camper["nombres"], camper["apellidos"])
+
+def matricularCamper(camper, grupo):
+    grupo["campers"].append(camper)
 
 def menuCoordinador():
 
