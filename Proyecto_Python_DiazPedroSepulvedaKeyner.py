@@ -12,6 +12,9 @@ with open("trainers.json","r", encoding="utf-8") as archivoT:
 with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
      usuariosCampus = json.load(archivoU)
 
+with open("grupos.json","r", encoding="utf-8") as archivo:
+    grupos = json.load(archivo)
+ 
 
 def menuGeneral():
     
@@ -25,9 +28,54 @@ def menuGeneral():
             menuInicioSesion()
         elif opmenuG == 2:
             menuRegistro()
+        elif opmenuG == 3:
+            break
 
-    
 
+def menuRegistro():
+    while True:
+
+        print("")
+        print("--------------------------")
+        print("------- REGISTRATE -------")
+        print("--------------------------")
+        print("")
+        correoRegistro = input("ingresa tu correo (@camper.com): ").strip() 
+        if not correoRegistro.endswith("@camper.com"):    #para verificar si el correo termina en @camper.com
+            print("¡El correo debe terminar en @camper.com!")
+            return
+
+        correo_existe = False
+        for usuario in usuariosCampus:
+            if usuario["correo"].strip().lower() == correoRegistro.lower():
+                correo_existe = True
+                break
+        if correo_existe:
+            print("¡este correo ya esta registrado!")
+            continue
+
+        break #termina con el ciclo si el correo no existe todavia y esta disponible
+
+    while True:
+        contraseñaRegistro = input("ingresa tu contraseña: ")
+        confirmarcont = input("confirma tu contraseña")
+        if contraseñaRegistro != confirmarcont:  #el != se usa para decir: "si no es igual a:"
+            print("las contraseñas no coinciden, intentalo de nuevo")
+            return
+        break #rompe el ciclo cuando la contraseña es valida
+
+    nuevo_usuario = {
+        "correo": correoRegistro,
+        "contraseña": contraseñaRegistro,
+        "rol": "camper"
+    }
+    usuariosCampus.append(nuevo_usuario)
+
+    with open("usuariosCampus.json","w", encoding="utf-8") as archivo:
+        json.dump(usuariosCampus, archivo)
+
+    print("\nREGISTRO EXITOSO")
+    print("\nYa puedes iniciar sesion!")
 
 def menuInicioSesion():
     print("")
@@ -44,7 +92,7 @@ def menuInicioSesion():
             elif usucamp["rol"] == "trainer":
                 menuTrainer(correo)
             elif usucamp["rol"] == "coordinador":
-                menuCoordinador()
+                menuCoordinador(correo)
             return #sale de la funcion / en este caso cuando se coloca un correo o contraseña incorrectos, vuelve al menu del inicio
     print("\n nombre o contraseña incorrectos!")
     print("")
@@ -57,12 +105,87 @@ def menuTrainer(correo):
     print("--- BIENVENIDO TRAINER ---")
     print("1. Asignar notas")
     print("2. Mirar estudiantes de su grupo")
+    print("3. Salir")
     opTrainer = int(input(": "))
     if opTrainer == 1:
         asignarNotas(trainer_actual)
     elif opTrainer == 2:
-        mirarestudiantesGrupotrainer(trainer_actual)
+        verEstudiantesTrainer(trainer_actual)
+    elif opTrainer == 3:
+        print("Saliendo...")
+        return
+    
+def verEstudiantesTrainer(trainer_actual):
+    print("")
+    print(f"ESTUDIANTES DEL TRAINER: {trainer_actual['nombre']}")
+    print("")
 
+
+    
+    #verificar que el trainer tenga grupos asignados
+    if 'grupo' not in trainer_actual or not trainer_actual['grupo']:
+        print("\neste trainer no tiene grupos asignados.")
+        return
+
+    #obtener los grupos del trainer (pueden ser varios separados por coma)
+    grupos_trainer = [g.strip() for g in trainer_actual["grupo"].split(",")] #el .split(",") lo que hace es dividir por comas
+    
+    
+    print(f"\nGrupos asignados: {', '.join(grupos_trainer)}")
+    print(f"Especialidad: {trainer_actual.get('especialidad')}")
+    print(f"Horario: {trainer_actual.get('hora de inicio')} - {trainer_actual.get('hora fin')}")
+    
+    #mostrar estudiantes por cada grupo
+    for codigo_grupo in grupos_trainer:
+        print("")
+        print(f"GRUPO: {codigo_grupo}")
+        print("")
+        
+        estudiantes_grupo = obtenerEstudiantesGrupo(codigo_grupo)
+        
+        if not estudiantes_grupo:
+            print(f"  No hay estudiantes asignados a este grupo aún.")
+            print(f"  El coordinador debe asignar grupos primero.")
+        else:
+            #buscar información del grupo
+            grupo_info = None
+            for g in grupos:
+                if g.get('codigo') == codigo_grupo:
+                    grupo_info = g
+                    break
+            
+            if grupo_info:
+                print(f"  Jornada: {grupo_info.get('jornada', 'N/A')}")
+                print(f"  Total de estudiantes: {len(estudiantes_grupo)}")
+            
+            #separar por estado
+            cursando = [e for e in estudiantes_grupo if e['estado']['situacion'] == 'Cursando']
+            otros = [e for e in estudiantes_grupo if e['estado']['situacion'] != 'Cursando']
+            
+            #mostrar estudiantes cursando
+            if cursando:
+                print(f"\nESTUDIANTES CURSANDO ({len(cursando)}):")
+                for i, estudiante in enumerate(cursando, 1):
+                    en_riesgo = "EN RIESGO" if estudiante['estado'].get('en riesgo') == 'si' else ""
+                    print(f"    {i:2d}. {estudiante['nombre']:<15} {estudiante['apellido']:<15} | ID: {estudiante['# de identificacion']}{en_riesgo}")
+            
+            #mostrar otros estados
+            if otros:
+                print(f"\nOTROS ESTADOS ({len(otros)}):")
+                estados_dict = {}
+                for e in otros:
+                    estado = e['estado']['situacion']
+                    if estado not in estados_dict:
+                        estados_dict[estado] = []
+                    estados_dict[estado].append(e)
+                
+                for estado, estudiantes in estados_dict.items():
+                    print(f"\n    {estado}: {len(estudiantes)} estudiantes")
+                    for est in estudiantes[:3]:  # Mostrar solo los primeros 3
+                        print(f"      • {est['nombre']} {est['apellido']}")
+                    if len(estudiantes) > 3:
+                        print(f"      ... y {len(estudiantes) - 3} más")
+        
 
 
 modulos = [
@@ -98,6 +221,7 @@ def asignarNotas():
             } 
                 
         }
+    
     guardarNotas(registro)
 
 
@@ -152,42 +276,48 @@ def menuCampers(correo):  #recibe el correo del camper
         elif opcionCamper == 2:
             
             print("\n--- MIS NOTAS ---")
-            try:
-                with open("notas.json", "r", encoding="utf-8") as archivoN:
-                    notas = json.load(archivoN)
+            with open("notas.json", "r", encoding="utf-8") as archivo:
+                notas = json.load(archivo)
                 
+                # Verificar si el archivo tiene contenido
+            if not notas or len(notas) == 0:
+                print("\nEl sistema de notas esta vacio")
+                print("Aún no hay notas registradas para ningún estudiante")
+                print("Un trainer debe asignar las notas primero")
+            else:
+                    # Buscar notas del camper actual
                 notas_encontradas = False
                 for nota in notas:
-                    
                     if nota["nombre"].strip().lower() == camper_actual["nombre"].strip().lower():
                         notas_encontradas = True
-                        print(f"\nMódulo: {nota['modulo']}")
-                        print(f"  Nota práctica: {nota['notas']['nota practica']}")
-                        print(f"  Nota teórica: {nota['notas']['nota teorica']}")
-                        print(f"  Nota trabajos: {nota['notas']['nota trabajos']}")
-                        print(f"  Nota final: {nota['notas']['nota final']}")
-                
-                if not notas_encontradas:
-                    print("No tienes notas registradas aún.")
+                        print(f"\n Módulo: {nota['modulo']}") #f sirve para que lo que esta adentro de las "" se lea bien, por ejemplo los {}
+                        print(f"   -Nota práctica (60%): {nota['notas']['nota practica']}")
+                        print(f"   -Nota teórica (30%): {nota['notas']['nota teorica']}")
+                        print(f"   -Nota trabajos (10%): {nota['notas']['nota trabajos']}")
+                        print(f"   -Nota final: {nota['notas']['nota final']}")
                     
-            except FileNotFoundError:
-                print("No hay notas registradas en el sistema.")
+                if notas_encontradas == False: #notas_encontradas = false
+                    print(f"\n No tienes notas registradas aún.")
+                    print(f"Tu trainer asignará tus calificaciones próximamente.")
+                    
 
         elif opcionCamper == 3:
             
-            print("\n--- MI GRUPO ---")
-            if 'grupo' in camper_actual:
-                print(f"Grupo asignado: {camper_actual['grupo']}")
-                print(f"Jornada: {camper_actual['jornada']}")
+            grupo_estudiante = camper_actual['# de identificacion']
+            
+            if grupo_estudiante:
+                print(f"Grupo asignado: {grupo_estudiante['codigo']}")
+                print(f"Jornada: {grupo_estudiante['jornada']}")
                 
+                # Obtener compañeros del grupo
+                compañeros = grupo_estudiante['codigo']
                 
-                print(f"\nCompañeros del grupo {camper_actual['grupo']}:")
+                print(f"\nCompañeros del grupo {grupo_estudiante['codigo']}:")
                 contador = 0
-                for compañero in campers:
-                    if 'grupo' in compañero and compañero['grupo'] == camper_actual['grupo']:
-                        if compañero['correo'] != camper_actual['correo']:  # No mostrar al usuario actual
-                            contador += 1
-                            print(f"  {contador}. {compañero['nombre']} {compañero['apellido']}")
+                for compañero in compañeros:
+                    if compañero['correo'] != camper_actual['correo']:  # No mostrar al usuario actual
+                        contador += 1
+                        print(f"  {contador}. {compañero['nombre']} {compañero['apellido']}")
             else:
                 print("Aún no tienes un grupo asignado.")
 

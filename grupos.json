@@ -1,0 +1,21 @@
+[
+    {
+        "codigo": "E1",
+        "jornada": "mañana",
+        "estudiantes": [
+            "92938527",
+            "50160515",
+            "50929103"
+        ],
+        "cantidad": 33
+    },
+    {
+        "codigo": "E2",
+        "jornada": "tarde",
+        "estudiantes": [
+            "80395821",
+            "12093534"
+        ],
+        "cantidad": 33
+    }
+]
