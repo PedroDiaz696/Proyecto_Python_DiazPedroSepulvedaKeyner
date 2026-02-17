@@ -1,0 +1,13 @@
+{
+    "modulos": [
+        "Fundamentos",
+        "Web",
+        "Formal",
+        "BasesDatos",
+        "Backend"
+    ],
+    "campers": [],
+    "trainer": null,
+    "capacidad": 35
+}
+
