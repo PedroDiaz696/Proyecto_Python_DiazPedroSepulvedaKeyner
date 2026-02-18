@@ -64,7 +64,7 @@ def menuCampers(correo):  #recibe el correo del camper
             print("")
             print("--- GRUPO ---")
             if 'grupo' in camper_actual:
-                print(f"Grupo: {camper_actual["grupo"]}")
+                print(f"Grupo: {camper_actual['grupo']}")
                 print(f"Jornada: {camper_actual['jornada']}")
             elif camper_actual["estado"]["situacion"] == "Retirado" or camper_actual["estado"]["situacion"] == "Expulsado":
                 print("Ya no formas parte de CAMPUSLANDS!")
