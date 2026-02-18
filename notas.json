@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "nombre": "Pedro Diaz",
+        "modulo": "fundamentos de programacion",
+        "notas": {
+            "nota practica": 78.0,
+            "nota teorica": 89.0,
+            "nota trabajos": 98.0,
+            "nota final": 83.3
+        }
+    },
+    {
+        "nombre": "julian agudelo",
+        "modulo": "fundamentos de programacion",
+        "notas": {
+            "nota practica": 67.0,
+            "nota teorica": 78.0,
+            "nota trabajos": 89.0,
+            "nota final": 72.5
+        }
+    }
+]

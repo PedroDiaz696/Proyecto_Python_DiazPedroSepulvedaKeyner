@@ -25,7 +25,7 @@
         "rol": "camper"
     },
     {
-        "correo": "paula1@camper.com",
+        "correo": "paula2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -41,1306 +41,6 @@
     },
     {
         "correo": "sara@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana19@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana21@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego18@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres18@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego19@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego20@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana24@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres19@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres20@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara18@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana25@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara21@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo18@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres22@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego22@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres23@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1350,32 +50,7 @@
         "rol": "camper"
     },
     {
-        "correo": "sara@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "andres@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis1@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1385,27 +60,27 @@
         "rol": "camper"
     },
     {
+        "correo": "luis@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "camila3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "juan1@camper.com",
+        "correo": "camila4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana1@camper.com",
+        "correo": "juan@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "miguel1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres1@camper.com",
+        "correo": "miguel@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1415,37 +90,12 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "miguel2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "sofia@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia1@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1460,27 +110,7 @@
         "rol": "camper"
     },
     {
-        "correo": "jorge1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "jorge2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo1@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1490,7 +120,22 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia3@camper.com",
+        "correo": "david2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1500,12 +145,12 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia4@camper.com",
+        "correo": "lucia2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego1@camper.com",
+        "correo": "diego@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1515,17 +160,12 @@
         "rol": "camper"
     },
     {
-        "correo": "andres4@camper.com",
+        "correo": "andres3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
         "correo": "luis2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian1@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1540,7 +180,7 @@
         "rol": "camper"
     },
     {
-        "correo": "camila4@camper.com",
+        "correo": "camila5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1550,22 +190,12 @@
         "rol": "camper"
     },
     {
-        "correo": "mateo2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "mateo3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1575,12 +205,7 @@
         "rol": "camper"
     },
     {
-        "correo": "luis3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos1@camper.com",
+        "correo": "carlos2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1590,7 +215,7 @@
         "rol": "camper"
     },
     {
-        "correo": "camila5@camper.com",
+        "correo": "camila6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1600,32 +225,17 @@
         "rol": "camper"
     },
     {
-        "correo": "andres5@camper.com",
+        "correo": "andres4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sara3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela1@camper.com",
+        "correo": "daniela@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
         "correo": "ana2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1645,17 +255,12 @@
         "rol": "camper"
     },
     {
-        "correo": "juan3@camper.com",
+        "correo": "diego2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis4@camper.com",
+        "correo": "luis3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1665,7 +270,7 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia6@camper.com",
+        "correo": "lucia4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1675,7 +280,7 @@
         "rol": "camper"
     },
     {
-        "correo": "andres6@camper.com",
+        "correo": "andres5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1685,22 +290,12 @@
         "rol": "camper"
     },
     {
-        "correo": "andres7@camper.com",
+        "correo": "carlos3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis5@camper.com",
+        "correo": "luis4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1710,22 +305,12 @@
         "rol": "camper"
     },
     {
-        "correo": "andres8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "miguel7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "miguel8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego4@camper.com",
+        "correo": "diego3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1735,12 +320,12 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia7@camper.com",
+        "correo": "lucia5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sara4@camper.com",
+        "correo": "sara2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1750,22 +335,22 @@
         "rol": "camper"
     },
     {
+        "correo": "miguel8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "miguel9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1775,22 +360,17 @@
         "rol": "camper"
     },
     {
-        "correo": "camila6@camper.com",
+        "correo": "camila7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres9@camper.com",
+        "correo": "andres6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "carlos3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan4@camper.com",
+        "correo": "juan3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1800,12 +380,12 @@
         "rol": "camper"
     },
     {
-        "correo": "miguel11@camper.com",
+        "correo": "miguel10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana6@camper.com",
+        "correo": "ana5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1815,127 +395,7 @@
         "rol": "camper"
     },
     {
-        "correo": "lucia8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria2@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "david3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela3@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura1@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria4@camper.com",
+        "correo": "sara3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1945,17 +405,132 @@
         "rol": "camper"
     },
     {
+        "correo": "luis6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "laura2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "miguel13@camper.com",
+        "correo": "sofia4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego6@camper.com",
+        "correo": "maria5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -1965,27 +540,32 @@
         "rol": "camper"
     },
     {
+        "correo": "ana9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "daniela4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "valentina3@camper.com",
+        "correo": "andres7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "luis8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo8@camper.com",
+        "correo": "sara4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2000,22 +580,17 @@
         "rol": "camper"
     },
     {
-        "correo": "camila9@camper.com",
+        "correo": "andres8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "jorge6@camper.com",
+        "correo": "sara5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana12@camper.com",
+        "correo": "lucia6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2025,87 +600,12 @@
         "rol": "camper"
     },
     {
-        "correo": "ana13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula4@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "sebastian10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "miguel14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "miguel15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura3@camper.com",
+        "correo": "miguel13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2115,17 +615,22 @@
         "rol": "camper"
     },
     {
-        "correo": "sara10@camper.com",
+        "correo": "laura5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "valentina4@camper.com",
+        "correo": "sara7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana14@camper.com",
+        "correo": "valentina2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2135,37 +640,32 @@
         "rol": "camper"
     },
     {
-        "correo": "valentina5@camper.com",
+        "correo": "valentina3@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "mateo9@camper.com",
+        "correo": "mateo8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana15@camper.com",
+        "correo": "ana11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "lucia10@camper.com",
+        "correo": "lucia7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "laura5@camper.com",
+        "correo": "diego6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana16@camper.com",
+        "correo": "ana12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2175,37 +675,32 @@
         "rol": "camper"
     },
     {
+        "correo": "diego7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "diego8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2215,112 +710,7 @@
         "rol": "camper"
     },
     {
-        "correo": "andres12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "camila13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
         "correo": "carlos7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "maria5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "laura7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula5@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "jorge8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos8@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2330,7 +720,67 @@
         "rol": "camper"
     },
     {
-        "correo": "ana17@camper.com",
+        "correo": "juan8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2340,32 +790,22 @@
         "rol": "camper"
     },
     {
-        "correo": "jorge9@camper.com",
+        "correo": "jorge7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego12@camper.com",
+        "correo": "daniela9@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "daniela13@camper.com",
+        "correo": "valentina4@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "valentina7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula6@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia12@camper.com",
+        "correo": "paula5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2380,77 +820,67 @@
         "rol": "camper"
     },
     {
-        "correo": "sara13@camper.com",
+        "correo": "sara9@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "luis9@camper.com",
+        "correo": "luis8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "diego13@camper.com",
+        "correo": "diego11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "jorge10@camper.com",
+        "correo": "jorge8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "paula7@camper.com",
+        "correo": "paula6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "maria7@camper.com",
+        "correo": "camila13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "camila14@camper.com",
+        "correo": "daniela10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "daniela14@camper.com",
+        "correo": "andres11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres14@camper.com",
+        "correo": "andres12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres15@camper.com",
+        "correo": "ana14@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana18@camper.com",
+        "correo": "sara10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana19@camper.com",
+        "correo": "juan9@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sara14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sara15@camper.com",
+        "correo": "sara11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2460,12 +890,12 @@
         "rol": "camper"
     },
     {
-        "correo": "paula8@camper.com",
+        "correo": "paula7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres16@camper.com",
+        "correo": "andres13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2475,22 +905,7 @@
         "rol": "camper"
     },
     {
-        "correo": "ana20@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sofia7@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian12@camper.com",
+        "correo": "sofia6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2500,27 +915,42 @@
         "rol": "camper"
     },
     {
-        "correo": "jorge11@camper.com",
+        "correo": "sara12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "valentina8@camper.com",
+        "correo": "valentina5@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sara16@camper.com",
+        "correo": "paula8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "valentina9@camper.com",
+        "correo": "sebastian12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "paula9@camper.com",
+        "correo": "camila14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge9@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2530,77 +960,42 @@
         "rol": "camper"
     },
     {
-        "correo": "camila15@camper.com",
+        "correo": "sara13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "mateo12@camper.com",
+        "correo": "juan10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "miguel16@camper.com",
+        "correo": "valentina6@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "ana21@camper.com",
+        "correo": "mateo10@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "jorge12@camper.com",
+        "correo": "andres14@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sebastian14@camper.com",
+        "correo": "diego12@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "sara17@camper.com",
+        "correo": "carlos8@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "laura9@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "mateo13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "andres17@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "juan14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "sebastian15@camper.com",
+        "correo": "diego13@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2610,32 +1005,17 @@
         "rol": "camper"
     },
     {
-        "correo": "diego15@camper.com",
+        "correo": "mateo11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "carlos10@camper.com",
+        "correo": "valentina7@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "mateo14@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "valentina11@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego16@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula10@camper.com",
+        "correo": "diego14@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2645,17 +1025,27 @@
         "rol": "camper"
     },
     {
-        "correo": "ana22@camper.com",
+        "correo": "diego15@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "paula11@camper.com",
+        "correo": "andres15@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "carlos11@camper.com",
+        "correo": "carlos10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego16@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2665,57 +1055,17 @@
         "rol": "camper"
     },
     {
-        "correo": "diego18@camper.com",
+        "correo": "daniela11@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "andres18@camper.com",
+        "correo": "lucia9@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
     {
-        "correo": "luis10@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "carlos12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana23@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "paula12@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego19@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "diego20@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "daniela15@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "lucia13@camper.com",
-        "contraseña": "campus2026",
-        "rol": "camper"
-    },
-    {
-        "correo": "ana24@camper.com",
+        "correo": "ana16@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2725,7 +1075,232 @@
         "rol": "camper"
     },
     {
+        "correo": "valentina8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "valentina12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2735,7 +1310,67 @@
         "rol": "camper"
     },
     {
-        "correo": "paula13@camper.com",
+        "correo": "andres20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo16@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2745,7 +1380,347 @@
         "rol": "camper"
     },
     {
+        "correo": "alejandro2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carolina@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
         "correo": "lucia14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea2@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },
@@ -2755,7 +1730,1032 @@
         "rol": "camper"
     },
     {
-        "correo": "sofia8@camper.com",
+        "correo": "andres26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres27@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres28@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "isabella@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "isabella2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carolina2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres29@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana2@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres30@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego27@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carolina3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego28@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sebastian24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego29@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana5@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana6@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres31@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego30@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego31@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "miguel24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "lucia25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres32@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "jorge21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "alejandro12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david10@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "santiago8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos18@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "camila22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "nicolas8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "diego32@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "natalia9@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carolina4@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david11@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andrea8@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "luis19@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sofia13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david12@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "carlos20@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "isabella3@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo27@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela21@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "andres33@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mateo28@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "laura23@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina24@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniela22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "felipe7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david13@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "daniel17@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "maria27@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "ana26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david14@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "valentina25@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "juan22@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "mariana7@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david15@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "sara26@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "david16@camper.com",
+        "contraseña": "campus2026",
+        "rol": "camper"
+    },
+    {
+        "correo": "paula21@camper.com",
         "contraseña": "campus2026",
         "rol": "camper"
     },

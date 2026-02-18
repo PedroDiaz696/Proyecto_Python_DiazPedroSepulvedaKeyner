@@ -1,9 +1,25 @@
-def registrarExamenInicial():
+import json
+
+with open("registros_campers_350.json", "r", encoding="utf-8") as archivo: #open = abre el archivo #,"r", para read/leer #"utf-8" = para que no falle con tildes #"as archivo" variable que representa el archivo #with abre el archivo y lo cierra automaticamente
+    campers = json.load(archivo) #json.load() sirve para que pase el archivo json a python
+
+with open("trainers.json","r", encoding="utf-8") as archivoT:
+     trainers = json.load(archivoT)
+
+with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
+     usuariosCampus = json.load(archivoU)
+
+with open("rutas.json","r", encoding="utf-8") as archivo:
+     rutas = json.load(archivo)
+
+matriculas = []
+
+def registrarExamenInicial(campers):
     
-        idBuscar = input("ID del camper: ")
+        idBuscar = input("# de identificacion del camper: ")
 
         for camper in campers:
-                if camper["id"] == idBuscar:
+                if camper["# de identificacion"] == idBuscar:
                         teoria = float(input("Nota teorica: "))
 
                         practica = float(input("Nota practica: "))
@@ -20,7 +36,7 @@ def registrarExamenInicial():
 
         print("Camper no encontrado")
 
-def asignarRutaTrainer():
+def asignarRutaTrainer(rutas, trainers):
     for r in rutas:
         print("-", r["nombre"])
 
@@ -38,7 +54,7 @@ def asignarRutaTrainer():
             print("Trainer asignado")
             return
 
-def matricularCampus():
+def matricularCampus(campers, rutas, matriculas):
     idBuscar = input("ID camper: ")
 
     for camper in campers:
@@ -83,7 +99,7 @@ def matricularCampus():
 
                 return
 
-def evaluarModulo():
+def evaluarModulo(campers):
 
     idBuscar = input("ID camper: ")
 
@@ -106,7 +122,7 @@ def evaluarModulo():
                 print("Módulo aprobado")
             return
 
-def reporteRiesgo():
+def reporteRiesgo(campers):
 
     print("\n--- CAMPERS EN RIESGO ---")
 
@@ -114,7 +130,10 @@ def reporteRiesgo():
         if camper["riesgo"]:
             print(camper["nombres"], camper["apellidos"])
 
-def menuCoordinador():
+def matricularCamper(camper, grupo):
+    grupo["campers"].append(camper)
+
+def menuCoordinador(correo):
 
     while True:
 
@@ -135,7 +154,7 @@ def menuCoordinador():
             asignarRutaTrainer(rutas, trainers)
 
         elif op == "3":
-            matricularCamper(campers, rutas, matriculas)
+            matricularCampus(campers, rutas, matriculas)
 
         elif op == "4":
             evaluarModulo(campers)
@@ -145,3 +164,8 @@ def menuCoordinador():
 
         elif op == "0":
             break
+
+
+    
+
+

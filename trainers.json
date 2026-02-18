@@ -7,7 +7,8 @@
         "hora fin": "2 PM",
         "especialidad": "JAVA, NETCORE",
         "grupo1": "E1",
-        "grupo2": "E2"
+        "grupo2": "E2",
+        "grupo3": "no existe"
     },
     {
         "id": "2",
@@ -17,7 +18,8 @@
         "hora fin": "2 PM",
         "especialidad": "JAVA, NETCORE",
         "grupo1": "J1",
-        "grupo2": "J2"
+        "grupo2": "J2",
+        "grupo3": "no existe"
     },
     {
         "id": "3",
@@ -27,7 +29,8 @@
         "hora fin": "2 PM",
         "especialidad": "JAVA",
         "grupo1": "K1",
-        "grupo2": "K2"
+        "grupo2": "K2",
+        "grupo3": "no existe"
     },
     {
         "id": "4",
@@ -48,6 +51,7 @@
         "hora fin": "6 PM",
         "especialidad": "JAVA, NodeJS",
         "grupo1": "C1",
-        "grupo2": "C2"
+        "grupo2": "C2",
+        "grupo3": "no existe"
     }
 ]
