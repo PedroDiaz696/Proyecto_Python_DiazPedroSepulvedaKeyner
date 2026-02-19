@@ -7,6 +7,9 @@ with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
      usuariosCampus = json.load(archivoU)
 
 def menuCampers(correo):  #recibe el correo del camper 
+    with open("registros_campers_350.json", "r", encoding="utf-8") as archivo:  ##se vuelven a pedri para que este la informacion actualizada
+        campers = json.load(archivo)
+    
     for camper in campers:
         if camper["correo"].strip().lower() == correo.strip().lower(): #si el correo que se ingreso es = al de un camper:
             camper_actual = camper #guarda la informacion del camper para saber de quien se trata
@@ -37,25 +40,19 @@ def menuCampers(correo):  #recibe el correo del camper
             
 
         elif opcionCamper == 2:
-            
+
             print("\n--- MIS NOTAS ---")
-            with open("notas.json", "r", encoding="utf-8") as archivo:
-                notas = json.load(archivo)
-                
-                # Verificar si el archivo tiene contenido
-            if not notas or len(notas) == 0:
-                print("\nEl sistema de notas esta vacio")
-                print("Aún no hay notas registradas para ningún estudiante")
-                print("Un trainer debe asignar las notas primero")
+
+            if "notas" not in camper_actual or len(camper_actual["notas"]) == 0:
+                print("\nAún no tienes notas registradas")
+                print("Un trainer debe asignarlas primero")
             else:
-                for nota in notas:
-                    if nota["nombre"].strip().lower() == camper_actual["nombre"].strip().lower():
-                        notas_encontradas = True
-                        print(f"\n Módulo: {nota['modulo']}") #f sirve para que lo que esta adentro de las "" se lea bien, por ejemplo los {}
-                        print(f"   -Nota práctica (60%): {nota['notas']['nota practica']}")
-                        print(f"   -Nota teórica (30%): {nota['notas']['nota teorica']}")
-                        print(f"   -Nota trabajos (10%): {nota['notas']['nota trabajos']}")
-                        print(f"   -Nota final: {nota['notas']['nota final']}")
+                for nota in camper_actual["notas"]:
+                    print(f"\n Módulo: {nota['modulo']}")
+                    print(f"   -Nota práctica (60%): {nota['nota practica']}")
+                    print(f"   -Nota teórica (30%): {nota['nota teorica']}")
+                    print(f"   -Nota trabajos (10%): {nota['nota trabajos']}")
+                    print(f"   -Nota final: {nota['nota final']}")
             
                     
                     

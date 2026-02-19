@@ -12,11 +12,17 @@ with open("usuariosCampus.json","r", encoding="utf-8") as archivoU:
 
 
 def menuTrainer(correo):
+    with open("registros_campers_350.json", "r", encoding="utf-8") as archivo:
+        campers = json.load(archivo)
+    with open("trainers.json", "r", encoding="utf-8") as archivoT:
+        trainers = json.load(archivoT)
+
+    for trainer in trainers:
+        if trainer["correo"].strip().lower() == correo.strip().lower(): #si el correo que se ingreso es = al de un trainer:
+            trainer_actual = trainer #guarda la informacion del trainer para saber de quien se trata
+            break #sale del bucle apenas se cumpla
+
     while True:
-        for trainer in trainers:
-            if trainer["correo"].strip().lower() == correo.strip().lower(): #si el correo que se ingreso es = al de un trainer:
-                trainer_actual = trainer #guarda la informacion del trainer para saber de quien se trata
-                break #sale del bucle apenas se cumpla
         print("--- BIENVENIDO TRAINER ---")
         print("1. Asignar notas")
         print("2. Mirar estudiantes de sus grupo")
@@ -25,12 +31,12 @@ def menuTrainer(correo):
         if opTrainer == 1:
             asignarNotas(trainer_actual)
         elif opTrainer == 2:
-            verEstudiantesTrainer(trainer_actual)
+            verEstudiantesTrainer(trainer_actual, campers)
         elif opTrainer == 3:
             print("Saliendo...")
             break
     
-def verEstudiantesTrainer(trainer_actual):
+def verEstudiantesTrainer(trainer_actual, campers):
     print("")
     print(f"ESTUDIANTES DEL TRAINER: {trainer_actual['nombre']}")
     print("")
@@ -81,7 +87,7 @@ def asignarNotas(trainer_actual):
 
     while True:
 
-        nombreEstudianteasignar = input("\ningrese el nombre del estudiante: ").strip()
+        nombreEstudianteasignar = input("\ningrese el # de identificacion del estudiante: ").strip()
 
         print("\n--- MODULOS ---")
         for i, modulo in enumerate(modulos, 1):
@@ -117,12 +123,26 @@ def asignarNotas(trainer_actual):
 
 def guardarNotas(registro):
 
-    with open("notas.json", "r", encoding="utf-8") as archivoN:
-        notas = json.load(archivoN)
+    with open("registros_campers_350.json", "r", encoding="utf-8") as archivoC:
+        campers = json.load(archivoC)
 
-    notas.append(registro)
+    for camper in campers:
+        if camper["# de identificacion"] == registro["nombre"]:
 
-    with open("notas.json", "w", encoding="utf-8") as archivoN:
-        json.dump(notas, archivoN, indent=4)
+            if "notas" not in camper:
+                camper["notas"] = []
+
+            camper["notas"].append({
+                "modulo": registro["modulo"],
+                "nota practica": registro["notas"]["nota practica"],
+                "nota teorica": registro["notas"]["nota teorica"],
+                "nota trabajos": registro["notas"]["nota trabajos"],
+                "nota final": registro["notas"]["nota final"]
+            })
+
+            break
+
+    with open("registros_campers_350.json", "w", encoding="utf-8") as archivoC:
+        json.dump(campers, archivoC, indent=4)
 
     print("Notas Guardadas!")
